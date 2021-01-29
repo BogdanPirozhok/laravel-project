@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'AlegreyaSans';
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Alegreyasanslightitalic.eot');
+    src: url('../fonts/Alegreyasanslightitalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Alegreyasanslightitalic.woff') format('woff'),
+    url('../fonts/Alegreyasanslightitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/AlegreyaSans-Regular.eot');
+    src: url('../fonts/AlegreyaSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AlegreyaSans-Regular.woff') format('woff'),
+         url('../fonts/AlegreyaSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/AlegreyaSans-Medium.eot');
+    src: url('../fonts/AlegreyaSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AlegreyaSans-Medium.woff') format('woff'),
+    url('../fonts/AlegreyaSans-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/AlegreyaSans-Bold.eot');
+    src: url('../fonts/AlegreyaSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AlegreyaSans-Bold.woff') format('woff'),
+    url('../fonts/AlegreyaSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Intro';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Intro-Regular.eot');
+    src: url('../fonts/Intro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Intro-Regular.woff') format('woff'),
+         url('../fonts/Intro-Regular.ttf') format('truetype');
+}

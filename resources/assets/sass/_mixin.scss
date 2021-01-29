@@ -1,0 +1,8 @@
+@function size($target) {
+    @return ($target / 16) * 1rem;
+}
+@function vw($font){
+    $vw-context: 1440 * 0.01 * 1px;
+    @return $font / $vw-context * 1vw;
+    @return $font;
+}

@@ -1,0 +1,116 @@
+.error-container {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30%;
+    min-width: 300px;
+    max-width: 450px;
+    overflow: hidden;
+    padding: 10px;
+    z-index: 999999;
+    margin-top: -20px;
+}
+
+.no_active{
+    position: absolute !important;
+    top: -200px !important;
+    opacity: 0 !important;
+}
+
+.notify:first-child {
+    margin-top: 20px;
+}
+
+.notify {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 0;
+    opacity: 1; 
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 0;
+    padding: 12px 15px 15px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    -webkit-transition: top 0.5s ease, opacity 1s ease;
+       -moz-transition: top 0.5s ease, opacity 1s ease;
+        -ms-transition: top 0.5s ease, opacity 1s ease;
+         -o-transition: top 0.5s ease, opacity 1s ease;
+            transition: top 0.5s ease, opacity 1s ease;
+}
+
+.notify:hover {
+    opacity: 0.6;
+}
+
+.success-notify {
+    background: #90b900;
+}
+
+.error-notify {
+    background: #e85656;
+}
+
+.info-notify {
+    background: #2dacd1;
+}
+
+.notify-content {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.notify-message {
+    width: calc(100% - 48px);
+    padding-left: 1.5rem;
+}
+
+.notify-message p {
+    color: white;
+    position: relative;
+}
+
+.notify-message p:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    background: rgb(255, 255, 255);
+    padding: 4px 10px 4px;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.success-notify .notify-message p:first-child {
+    color: #90b900;
+}
+
+.error-notify .notify-message p:first-child {
+    color: #e85656;
+}
+
+.info-notify .notify-message p:first-child{
+    color: #2dacd1;
+}
+
+.notify-message p:last-child {
+    font-size: 14px;
+}
+
+.notify-icon {
+    width: 48px;
+}
+
+@media screen and (max-width:500px) {
+    .notify {
+        margin-bottom: 10px;
+    }
+    .error-container {
+        width: 80%;
+        min-width: auto;
+        max-width: auto;
+    }
+}

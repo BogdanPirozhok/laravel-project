@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Inter-Light.eot');
+    src: url('../fonts/Inter-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Inter-Light.woff2') format('woff2'),
+    url('../fonts/Inter-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Inter-Regular.eot');
+    src: url('../fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Inter-Regular.woff2') format('woff2'),
+         url('../fonts/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Inter-Medium.eot');
+    src: url('../fonts/Inter-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Inter-Medium.woff2') format('woff2'),
+         url('../fonts/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Inter-SemiBold.eot');
+    src: url('../fonts/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+    url('../fonts/Inter-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AlegreyaSans';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/AlegreyaSans-Regular.eot');
+    src: url('../fonts/AlegreyaSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AlegreyaSans-Regular.woff') format('woff'),
+    url('../fonts/AlegreyaSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/AlegreyaSans-Medium.eot');
+    src: url('../fonts/AlegreyaSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AlegreyaSans-Medium.woff') format('woff'),
+    url('../fonts/AlegreyaSans-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/AlegreyaSans-Bold.eot');
+    src: url('../fonts/AlegreyaSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AlegreyaSans-Bold.woff') format('woff'),
+    url('../fonts/AlegreyaSans-Bold.ttf') format('truetype');
+}

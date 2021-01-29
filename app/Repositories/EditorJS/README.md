@@ -1,0 +1,1 @@
+# PHP renderer for EditorJS

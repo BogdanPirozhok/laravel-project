@@ -1,0 +1,101 @@
+/* ---------- modal - open ---------- */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+    background: rgba(38, 48, 64, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-notifi {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    max-width: 412px;
+    width: 100%;
+    overflow: hidden;
+    &__line {
+        width: 100%;
+        height: 4px;
+        border-radius: 4px 4px 0 0;
+        &.red {
+            background: #A51A0D;
+        }
+        &.yellow {
+            background: #FFE2B3;
+        }
+        &.green {
+            background: #2A655F;
+        }
+    }
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 110px;
+        background: #fff;
+        padding: 10px 10px 12px 10px;
+    }
+    &__img {
+        width: 24px;
+        height: 24px;
+        margin-right: 16px;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 400;
+        max-width: 270px;
+    }
+    &__group {
+        display: flex;
+        padding: 16px;
+        justify-content: flex-end;
+        background: #EFEFF4;
+        border-radius: 2px;
+        margin-top: -2px;
+        .btn {
+            height: 32px;
+        }
+        .btn-text {
+            margin-right: 16px;
+        }
+    }
+}
+.fade-15-enter-active, .fade-15-leave-active {
+    transition: .15s linear;
+}
+.fade-15-enter, .fade-15-leave-to {
+    opacity: 0;
+}
+.modal {
+    display: flex;
+    padding: 0 16px;
+    max-width: 1012px;
+    width: 100%;
+    align-self: flex-start;
+    &__body {
+        background: #f1f2f9;
+        width: 100%;
+        padding: 48px 32px;
+        margin-top: 0;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        .form__row:last-child {
+            margin-bottom: 32px;
+        }
+    }
+}
+/* ---------- modal - close ---------- */

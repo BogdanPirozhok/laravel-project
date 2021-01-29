@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*, *:before, *:after {
+    outline: none !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent !important;
+    -moz-tap-highlight-color: transparent !important;
+    -o-tap-highlight-color: transparent !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: unset;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: #1C2545;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased!important;
+}
+main {
+    overflow: hidden;
+}
+.wrapper {
+    max-width: 1340px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+h1.h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+
+
+.noPrint {
+    display: none;
+}
+h1.h2 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.recipe__main-img {
+    height: 340px;
+    width: 100%;
+    object-fit: cover;
+}
+.quick-facts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F9EFE6!important;
+    padding: 1.75rem;
+}
+.quick-facts__box {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    max-width: 30%;
+}
+.quick-facts:last-child {
+     margin-right: 0;
+}
+.quick-facts__img {
+     width: 2rem;
+     height: 2rem;
+     object-fit: contain;
+     margin-right: 1rem;
+ }
+.quick-facts__text {
+     font-size: 1.125rem;
+     white-space: nowrap;
+     max-width: 100%;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
+.recipe-ingredients__title, .recipe-article__title {
+    font-size: 1.25rem;
+    margin-bottom: 14px;
+    margin-top: 40px;
+    display: block;
+}
+.content-output > *:first-child {
+    padding-top: 0;
+}
+.content-output {
+    font-size: 1.125rem;
+    line-height: 1.5em !important;
+}
+.content-output h1,
+.content-output h2,
+.content-output h3,
+.content-output h4,
+.content-output h5,
+.content-output h6 {
+    padding: 1em 0;
+    margin-bottom: -1em!important;
+}
+.content-output h1 {
+    font-size: 2em;
+}
+.content-output h2 {
+    font-size: 1.5em;
+}
+.content-output h3 {
+    font-size: 1.17em;
+}
+.content-output h4 {
+    font-size: 1em;
+}
+.content-output h5 {
+    font-size: 0.83em;
+}
+.content-output h6 {
+    font-size: 0.67em;
+}
+.content-output a {
+    text-decoration: underline;
+    color: #1C2545;
+}
+.content-output p {
+    padding: .4em 0;
+}
+.content-output ol, .content-output ul {
+    padding: .4em 0 .4em 1.5rem;
+}
+.content-output li {
+    padding: 5.5px 0 5.5px 3px;
+}
+.content-output ul li {
+    position: relative;
+}
+.content-output ul li:after {
+     content: "";
+     position: absolute;
+     right: 100%;
+     top: 50%;
+     transform: translateY(-50%);
+     width: 1.5rem;
+     height: 1.5rem;
+     background: url("public/images/check-recipe.svg") center/contain no-repeat;
+}
+.content-output .block-delimiter {
+    width: 100%;
+    text-align: center;
+    padding: .4em 0;
+}
+.content-output .block-delimiter:before {
+     display: inline-block;
+     content: "***";
+     font-size: 30px;
+     line-height: 65px;
+     height: 30px;
+     letter-spacing: 0.2em;
+}
+.content-output figure {
+    padding: .4em 0;
+    display: flex;
+    flex-direction: column;
+}
+.content-output figure img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+.content-output figcaption {
+    margin-top: 10px;
+    padding: 10px 12px;
+}
+.content-output figure.warn {
+    position: relative;
+    padding-left: 2rem;
+}
+.content-output figure.warn:after {
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 50%;
+     transform: translateY(-50%);
+     width: 1.5rem;
+     height: 1.5rem;
+     margin-top: -1px;
+     background: url("public/images/warning.svg") center/contain no-repeat;
+}
+.content-output blockquote {
+    position: relative;
+    padding-left: 2rem;
+}
+.content-output blockquote:after {
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 0;
+     margin-left: 1.375rem;
+     width: 2px;
+     height: 100%;
+     background: #1C2545;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,100 @@
+.ck-editor {
+    margin-top: 8rem!important;
+    margin-bottom: 8rem!important;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #1C2545;
+    overflow: auto;
+    div > *:first-child {
+        margin-top: 0;
+    }
+    div > *:last-child {
+        margin-bottom: 0;
+    }
+    pre, li {
+        cursor: default;
+    }
+    a {
+        font-weight: 600;
+        color: #354682;
+        transition: 0.1s linear;
+        cursor: pointer;
+    }
+    p {
+        font-size: 1em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+    h1, h2, h3 {
+        font-family: "Intro", sans-serif;
+    }
+    h1 {
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        font-weight: bold;
+    }
+    pre {
+        display: block;
+        font-family: monospace;
+        white-space: pre;
+        margin: 1em 0px;
+    }
+    hr {
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        border-color: currentColor;
+    }
+    ol, ul {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        padding-inline-start: 24px;
+    }
+    ol {
+        list-style-type: decimal;
+    }
+    ul {
+        list-style-type: disc;
+    }
+    li {
+        margin: 0.5em 0;
+    }
+    img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+    table {
+        border: 2px solid #1C2545;
+        max-width: 100%;
+        border-collapse: collapse;
+        td, th {
+            padding: 10px 16px;
+            border: 1px solid #1C2545;
+        }
+        caption {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (hover: hover) {
+    .ck-editor {
+        a {
+            &:hover {
+                color: #91a1d3;
+            }
+        }
+    }
+}
